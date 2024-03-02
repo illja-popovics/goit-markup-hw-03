@@ -92,8 +92,15 @@ a:focus {
     color: #fff;
     font-family: Roboto, sans-serif;;
     line-height: 1.5;
+    width: 169px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    white-space: nowrap;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
+
+    
 .hero-wrapper {
     display: flex;
     flex-direction: column;
@@ -289,6 +296,10 @@ a:focus {
     text-align: center;
     background-color: var(--footer-white-cl);
     font-family: var(--base-fonts);
+    white-space: nowrap;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .portfolio-cards-wrapper {
