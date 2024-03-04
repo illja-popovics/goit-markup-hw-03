@@ -75,6 +75,7 @@ a:focus {
 
 .hero {
     background-color: var(--primary-header-background-cl);
+    padding: 188px 0px;
 }
 .hero-title {
     color: #fff;
@@ -88,6 +89,7 @@ a:focus {
 .hero-button {
     background-color: var(--logo-button-purple-cl);
     font-weight: 500;
+    border: none;
     letter-spacing: 0.04em;
     color: #fff;
     font-family: Roboto, sans-serif;;
@@ -106,7 +108,7 @@ a:focus {
     flex-direction: column;
     gap: 48px;
     align-items: center;
-    padding: 188px 0px;
+    
 }
 
 
@@ -117,13 +119,21 @@ a:focus {
     background-color: var(--button-link-active-cl);
 }
 
+.main-points {
+    padding: 120px 0px;
+}
+
 .main-points-wrapper {
     display: flex;
-    padding: 120px 0px;
     gap: 24px;
-    align-items: center;
-    
+}
 
+.main-points-h3 {
+    margin-bottom: 8px;
+}
+
+.services {
+    padding-bottom: 120px;
 }
 
 .services-wrapper {
@@ -131,6 +141,10 @@ a:focus {
     margin-bottom: 120px;
     gap: 72px;
     flex-direction: column;
+}
+
+.services-header {
+    margin-bottom: 72px;
 }
 
 .servicer-pictures-wrapper {
@@ -153,7 +167,9 @@ a:focus {
     
 }
 .logo-light {
-    color: var(--footer-white-cl)
+    color: var(--footer-white-cl);
+    margin-bottom: 16px;
+    display: inline-block;
 }
 .accent-color {
     color: var(--logo-button-purple-cl);
@@ -161,6 +177,10 @@ a:focus {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+}
+
+.header-adress-wrapper {
+    margin-left: auto;
 }
 
 .header .container {
@@ -199,7 +219,6 @@ a:focus {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-left: 332px;
 }
 .footer {
     background-color: var(--primary-header-background-cl);
@@ -210,15 +229,11 @@ a:focus {
     
 .footer-text {
     max-width: 264px;
-    margin-top: 16px;
 }
 
 .section-team {
     background-color: var(--footer-white-cl);
-}
-
-.team-header {
-    padding-top: 120px;
+    padding: 120px 0px;
 }
 
 .team-subheader {
@@ -240,9 +255,7 @@ a:focus {
 }
 .team-card {
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     width: 264px;
-    height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
     background-color: #fff;
@@ -255,7 +268,7 @@ a:focus {
     display: flex;
     flex-direction: column;
     padding: 0px 32px;
-    margin: 32px 16px;
+    padding: 32px 16px;
     background-color: #fff;
     gap: 8px;
 }
@@ -279,12 +292,16 @@ a:focus {
     background-color: #fff;
 }
 
+.buttons {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .buttons-wrapper {
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .portfolio-button {
@@ -307,7 +324,6 @@ a:focus {
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 48px;
     grid-column-gap: 24px;
-    padding-bottom: 120px;
 }
 
 .portfolio-card {
